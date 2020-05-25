@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Donation;
 use Illuminate\Http\Request;
+use Veritrans_Config;
+use Veritrans_Notification;
+use Veritrans_Snap;
 
 class DonationController extends Controller
 {
